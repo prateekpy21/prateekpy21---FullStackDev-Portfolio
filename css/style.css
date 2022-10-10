@@ -1,5 +1,6 @@
 *,
-*::before {
+*::before,
+*::after {
     box-sizing: border-box;
 }
 /* custom design */
@@ -71,7 +72,7 @@ img {
 
  }
  
-.btn:hover{
+.btn:hover {
     transform: scale(1.1);
 }
 /* Typography*/
@@ -143,7 +144,7 @@ strong { font-weight: var(--fw-bold);}
     .intro {
         display: grid;
         width: min-content;
-        margin: 0 2em;
+        margin: 0 auto;
         column-gap: 1em;
         grid-template-areas: "img title" "img subtitle";
         grid-template-columns: min-content max-content;
@@ -219,6 +220,10 @@ strong { font-weight: var(--fw-bold);}
     margin: 0 auto;
 }
 
+.section__subtitle--intro {
+    display: inline-block;
+}
+
 @media(min-width: 600px) {
     .about-me {
         display: grid;
@@ -248,5 +253,7 @@ strong { font-weight: var(--fw-bold);}
 
     .about-me__img {
         grid-area: img;
+        position: relative;
+        z-index: 2;
     }
 }
