@@ -5,156 +5,69 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta >
         <meta >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
         <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/Styles/style.css">
+          
+
         <title> Prateek Pandey Portfolio</title>
     </head>
-    <body>
-    <!-----------------------Header Section Start --------------------->
-        <header>
-          <div class="nav">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <div class="container-fluid">
-                <a class="navbar-brand" href="#home">Home</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                  <div class="navbar-nav">
-                    <a class="nav-link" href="#about">About Me</a>
-                    <a class="nav-link" href="#projects">Projects</a>
-                    <a class="nav-link" href="./CV.html">CV</a>
-                    <a class="nav-link" href="#contact">Contact</a>
-                  </div>
-                </div>
-              </div>
-            </nav>
-          </div>
-          <div class="logo">
+    <body class="main-content">
+      <header class="sub-section sec1 header active" id="home">
+      <div class="header-content">
+        <div class="left-header">
+          <div class="h-shape"></div>
+          <div class="image">
             <img src="./images/logo.jpg" alt="">
           </div>
-          </header>
-    <!-------------- Header Section End ------------------------------>
-
-    <!---------Introduction Section Start --------------->
-      <section class="intro" id="home">
-        <h1 class="section__title section__title--intro">
-          Hi, I am <strong>Prateek Pandey</strong>
-        </h1>
-        <p class="section__subtitle section__subtitle--intro">Full-stack Dev</p>
-        <img class= "intro__img" src="./images/prateekSmiling.jpg" alt="A picture of Prateek Smiling">
-      </section>   
-<!--------------Introduction Section End ------------------------>
-
-<!-------------------- Project Section Start----------------->
-        <section class="my-services" id="projects">
-         <h2 class="section__title section__title--services">What I do</h2>
-         <div class="services">
-          <div class="service">
-           <h3></h3>
-           <p>
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque 
-             adipisci quae nihil. Consequuntur obcaecati debitis dolorem perspiciatis, 
-             a ipsa, ut nobis distinctio illum adipisci saepe corrupti molestiae esse 
-             consectetur temporibus. 
-             
-           </p>
-         </div>
-         <!--/service-->
-         <div class="service">
-          <h3></h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque 
-             adipisci quae nihil. Consequuntur obcaecati debitis dolorem perspiciatis, 
-             a ipsa, ut nobis distinctio illum adipisci saepe corrupti molestiae esse 
-             consectetur temporibus.
-          </p>
         </div>
-        <!--/service-->
-        <div class="service">
-          <h3></h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque 
-             adipisci quae nihil. Consequuntur obcaecati debitis dolorem perspiciatis, 
-             a ipsa, ut nobis distinctio illum adipisci saepe corrupti molestiae esse 
-             consectetur temporibus.
+        
+        <div class="right-header">
+          <h1 class="name">
+            Hi, I'm <span> Prateek Pandey</span>
+            A Full Stack Developer.
+          </h1>
+
+          <p> 
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Veritatis sed labore in fuga quaerat adipisci, officiis rem voluptatibus vel eaque? 
+            Velit placeat eaque in quam? Assumenda iste dolore praesentium porro
+      
           </p>
+          <div class="btn-con">
+          <a href="" class="main-btn">
+            <span class="btn-text"> Download CV</span>
+            <span class="btn-icon">
+              <i class="fa-solid fa-download"></i>
+            </span>
+            </a>
+          </div>
         </div>
-         </div> <!--/services -->
-
-         <a href="#work" class="btn">My Work</a>
-        </section>
-<!-------------------- Project Section End----------------->
-
-<!---------- About Me Section Start------------------------>
-        <section class="about-me" id="about">
-          <h2 class="section__title section__title--about">Who I am</h2>
-          <p class="section__subtitle section__subtitle--about">
-            Web Developer both Front End & Back End
-          </p>
-          <div class="about-me__body">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque 
-              adipisci quae nihil. Consequuntur obcaecati debitis dolorem perspiciatis, 
-              </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque 
-              adipisci quae nihil. Consequuntur obcaecati debitis dolorem perspiciatis, 
-              </p>
-            
-          </div>
-          <img src="./images/AboutMe.jpg" alt="lol" class="about-me_img">
-        </section>
-
-<!---------- About Me Section End------------------------>
-
-<!---------- My Work Section Start------------------------>
-        <section class="my-work" id="work">
-          <h2 class="section__title">My Work</h2>
-          <p class="section__subtitle"></p>
-          
-          <!--Portfolio item 01-->
-          <div class="portfolio">
-            <a href="#" class="portfolio__item">
-              <img src="portfolio-01.jpg" class="portfolio__img" alt="work image ">
-            </a>
-          </div>
-          <!--Portfolio item 02-->
-          <div class="portfolio">
-            <a href="#" class="portfolio__item">
-              <img src="portfolio-01.jpg" class="portfolio__img" alt="work image ">
-            </a>
-          </div>
-          
-          <!--Portfolio item 03-->
-          <div class="portfolio">
-            <a href="#" class="portfolio__item">
-              <img src="portfolio-01.jpg" class="portfolio__img" alt="work image ">
-            </a>
-          </div>
-          
-          <!--Portfolio item 04-->
-          <div class="portfolio">
-            <a href="#" class="portfolio__item">
-              <img src="portfolio-01.jpg" class="portfolio__img" alt="work image ">
-            </a>
-          </div>
-          
-        </section>
-<!---------- My Work Section End ------------------------>
-
-        <!-- Contact Section-->
-        <footer id="contact">
-          <a href="mailto:prateekpy.21@gmail.com" class="footer__link">prateekpy.21@gmail.com</a>
-          <ul class="social-list">
-            <li class="social-list__item"><a class="social-list__link" 
-              href="https://facebook.com">a</a></li>
-            <li class="social-list__item"><a class="social-list__link" 
-              href="https://github.com">b</a></li>
-            <li class="social-list__item"><a class="social-list__link" 
-              href="https://instagram.com">c</a></li>
-            <li class="social-list__item"><a class="social-list__link" 
-              href="https://twitter.com">d</a></li>
-          </ul>
-        </footer>
-      <script src="./bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>  
+      </div>   
+      </header>
+        <main>
+          <section class="sub-section sec2 about" id="about">
+            <div class="main-title">
+              <h2>About <span>me</span><span class="bg-text">My stats</span></h2>
+            </div>
+          </section>
+          <section class="sub-section sec3 portfolio" id="portfolio"></section>
+          <section class="sub-section sec4 blogs" id="blogs"></section>
+          <section class="sub-section sec5 contact" id="contact"></section>
+        </main>
+        <div class="controls">
+          <div class="controller control-1 active-btn" data-id="home">
+            <i class="fa-solid fa-house-user"></i> </div>
+          <div class="controller control-2 " data-id="about">
+            <i class="fa-brands fa-dev"></i> </div>
+          <div class="controller control-3 " data-id="portfolio">
+            <i class="fa-solid fa-laptop-code"></i> </div>
+          <div class="controller control-4 " data-id="blogs">
+            <i class="fa-solid fa-square-rss"></i> </div>
+          <div class="controller control-5 " data-id="contact">
+            <i class="fa-solid fa-envelope-circle-check"></i> </div>
+        </div>
+        <script type="text/javascript" src="app.js"></script>  
     </body>
+    
 </html>
